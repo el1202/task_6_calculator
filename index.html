@@ -7,6 +7,31 @@
     </title>
 </head>
 <body>
-    
+    <script>
+
+// запрос
+let a = parseFloat(prompt("Введите первое число:"));
+let b = parseFloat(prompt("Введите второе число:"));
+
+// вводим операцию
+let op = prompt("Введите действие (+, -, *, /):");
+
+// выполняем действие
+if (op === "+") {
+  alert("Результат: " + (a + b));
+} else if (op === "-") {
+  alert("Результат: " + (a - b));
+} else if (op === "*") {
+  alert("Результат: " + (a * b));
+} else if (op === "/") {
+  if (b !== 0) {
+    alert("Результат: " + (a / b));
+  } else {
+    alert("Ошибка: деление на ноль!");
+  }
+} else {
+  alert("Неверно введенное действие!");
+}
+</script>
 </body>
 </html>
