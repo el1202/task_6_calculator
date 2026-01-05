@@ -1,0 +1,29 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Папки зависимостей
+node_modules/
+vendor/
+
+# Артефакты сборки
+dist/
+build/
+out/
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Кэш
+.cache/
+*.swp
